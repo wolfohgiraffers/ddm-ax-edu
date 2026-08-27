@@ -11,7 +11,7 @@
 
 1. 생성한 저장소에서 `Add file` → `Upload files`를 선택합니다.
 2. 압축 파일을 먼저 해제합니다.
-3. `index.html`, `styles.css`, `script.js`를 포함한 폴더 안의 파일들을 업로드 영역에 끌어놓습니다.
+3. `index.html`, `styles.css`, `script.js`, `assets` 폴더를 포함한 파일들을 업로드 영역에 끌어놓습니다.
 4. 파일이 저장소 최상위에 올라갔는지 확인합니다. `index.html`이 하위 폴더 안에 있으면 안 됩니다.
 5. `Commit changes`를 선택합니다.
 
