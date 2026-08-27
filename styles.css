@@ -24,3 +24,7 @@ body{font-size:17px}.brand{font-size:.82rem}.eyebrow{font-size:.86rem}.microcopy
 @media(max-width:560px){body{font-size:16px}.hero{padding-top:70px;padding-bottom:58px}.hero h1{font-size:2.35rem;line-height:1.12}.section{padding-top:58px;padding-bottom:58px}.problem-grid article{padding:25px}.tool-grid article{min-height:auto}.class-card,.class-card.accent{padding:24px}.final-cta{padding-top:64px;padding-bottom:64px}}
 .beginner-badge{display:inline-flex;align-items:center;gap:8px;background:#e6f1f3;color:#15566d;border:1px solid #c6dde3;border-radius:999px;padding:7px 12px;margin:0 0 18px;font-size:.84rem;font-weight:800}.beginner-badge:before{content:"✓";display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--blue);color:#fff;font-size:.7rem}.beginner-points{display:flex;flex-wrap:wrap;gap:8px;margin:-6px 0 24px}.beginner-points span{background:#f4f6f8;border:1px solid var(--line);border-radius:4px;padding:7px 10px;color:#4e6375;font-size:.84rem;font-weight:700}.hero .beginner-badge+.eyebrow{margin-top:0}
 @media(max-width:560px){.beginner-badge{font-size:.78rem;margin-bottom:15px}.beginner-points{gap:6px}.beginner-points span{font-size:.76rem;padding:6px 8px}.hero-lead{font-size:1.06rem}}
+
+/* Keep lesson titles upright; rotate only the disclosure icon. */
+.timeline details[open]>summary>span{transform:none}
+.accordion details[open]>summary>span{transform:rotate(45deg)}
