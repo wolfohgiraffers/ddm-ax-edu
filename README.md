@@ -22,6 +22,8 @@
 
 Google Form 문항과 권장 설정은 `GOOGLE_FORM_SETUP.md`에 정리되어 있습니다.
 
+페이지 문구·디자인·Google Form·응답 Sheet·배포 운영을 함께 관리하는 방법은 `SITE_BUILD_AND_OPERATION_GUIDE.md`를 참고하세요.
+
 ## 로고 출처
 
 - 동대문구시설관리공단 CI: 공단 공식 홈페이지 `사훈 및 CI`
